@@ -1,18 +1,17 @@
 {
   "manifest_version": 3,
   "name": "Make Twitter Tweet Again",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "We didn't ask for an 'X'",
   "icons": {
-    "16": "favicon.png",
-    "48": "favicon.png",
-    "128": "favicon.png"
+    "16": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
   },
-  "action": {},
   "permissions": ["tabs"],
   "content_scripts": [
     {
-      "matches": ["https://twitter.com/*"],
+      "matches": ["https://twitter.com/*","https://x.com/*"],
       "js": ["content_script.js"],
       "run_at": "document_start"
     }
@@ -20,7 +19,7 @@
   "web_accessible_resources": [
     {
       "resources": ["favicon.ico"],
-      "matches": ["https://twitter.com/*"]
+      "matches": ["https://twitter.com/*","https://x.com/*"]
     }
   ]
 }
