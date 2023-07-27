@@ -1,8 +1,8 @@
 # make-twitter-tweet-again
-We didn't ask for an 'X'
+> *We didn't ask for an 'X'*
 
-Get it on the webstore
-[Chrome Web Store (pending review!)](https://chrome.google.com/webstore/detail/)
+So here's a Chrome browser extension to bring back the bird logo!
+- [Chrome Web Store (pending review!)](https://chrome.google.com/webstore/detail/)
 
 ![promo](https://github.com/jasbanza/make-twitter-tweet-again/assets/1925470/fc0daf9e-b399-4057-a362-d57b3801e4c8)
 
@@ -10,9 +10,10 @@ Get it on the webstore
 
 ### Windows
 #### option 1
-- Run `build.bat`. This will create `./build/extension.zip` 
+- Run `build.bat`. This will create `./build/extension.zip`
+- Deploy extension.zip to [Chrome Web Store Developer Dashboard](https://chrome.google.com/webstore/devconsole/).
 #### option 2
-- manually zip the contents of `./src` to `extension.zip`
+- Manually zip the contents of `./src` to `extension.zip`
 
 ## Test locally
 
