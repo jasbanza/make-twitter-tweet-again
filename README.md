@@ -1,8 +1,7 @@
 # make-twitter-tweet-again
 We didn't ask for an 'X'
 
-![main](https://github.com/jasbanza/make-twitter-tweet-again/assets/1925470/158078e7-4aca-43aa-a4b0-49f8a5eff17d)
-
+![promo](https://github.com/jasbanza/make-twitter-tweet-again/assets/1925470/fc0daf9e-b399-4057-a362-d57b3801e4c8)
 
 ## Build for Chrome Web Store
 
